@@ -1,0 +1,24 @@
+{
+  "name": "optimizador-img-gulp",
+  "version": "1.0.0",
+  "description": "optimizador de imagenes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordyCorrales/optimizador-img-gulp.git"
+  },
+  "keywords": [
+    "imagen",
+    "optimizar",
+    "gulp"
+  ],
+  "author": "Jordy Corrales <corrales.alexanderjc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordyCorrales/optimizador-img-gulp/issues"
+  },
+  "homepage": "https://github.com/JordyCorrales/optimizador-img-gulp#readme"
+}
