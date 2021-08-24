@@ -20,7 +20,7 @@ gulp.task('clear', () => cache.clearAll());
 
 gulp.task('img', function () {
   return gulp
-    .src('image-in/**/*')
+    .src(['image-in/**/*', '!image-in/note.md'])
     .pipe(
       imagemin([
         imagemin.svgo({
@@ -48,7 +48,7 @@ gulp.task('img', function () {
 
 gulp.task('img-webp', function () {
   return gulp
-    .src('image-in/**/*')
+    .src(['image-in/**/*', '!image-in/note.md'])
     .pipe(
       imagemin([
         imagemin.svgo({

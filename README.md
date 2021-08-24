@@ -1,23 +1,39 @@
 # Project
 
-Este proyecto permite optimizar de imágenes
+Este proyecto permite optimizar imágenes
 
 ## Features
 
-- Optimizar imágenes
--
--
--
+- Optimizar imágenes png, jpeg, gif, svg
+- Convertir todas la imágenes a .webp
 
 ## Tech Stack
 
-**Se uso:** Node, javascript, gulp
+**Se uso:** node, javascript, gulp
 
 ## Installation
 
-Install my-project with npm
+- Clonar el repositorio
+- Instalar las dependencias
 
 ```bash
-  npm install my-project
-  cd my-project
+  npm install
+```
+
+- Minificar imágenes
+
+```bash
+  npm gulp
+```
+
+- Convertir imágenes a .webp
+
+```bash
+  npm gulp img-webp
+```
+
+- Borrar images procesadas
+
+```bash
+  npm gulp clean
 ```
