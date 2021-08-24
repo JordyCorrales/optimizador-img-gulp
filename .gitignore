@@ -77,3 +77,9 @@ dist/
 
 # lighthouse
 .lighthouseci
+
+# no subir las iamgenes a github
+image-in/*
+!image-in/note.md
+image-out/*
+!image-out/note.md

@@ -2,9 +2,11 @@
   "name": "optimizador-img-gulp",
   "version": "1.0.0",
   "description": "optimizador de imagenes",
-  "main": "src/index.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "img": "gulp",
+    "img:webp": "gulp img-webp",
+    "delete": "gulp clean"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/JordyCorrales/optimizador-img-gulp/issues"
   },
-  "homepage": "https://github.com/JordyCorrales/optimizador-img-gulp#readme"
+  "homepage": "https://github.com/JordyCorrales/optimizador-img-gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cache": "^1.1.3",
+    "gulp-clean": "^0.4.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-webp": "^4.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^9.0.0"
+  }
 }
