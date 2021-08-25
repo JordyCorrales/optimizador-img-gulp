@@ -32,8 +32,14 @@ Este proyecto permite optimizar imágenes
   npm gulp img-webp
 ```
 
-- Borrar images procesadas
+- Borrar imágenes procesadas
 
 ```bash
   npm gulp clean
+```
+
+- Restablecer 
+
+```bash
+  npm gulp reset
 ```
