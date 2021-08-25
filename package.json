@@ -6,7 +6,8 @@
   "scripts": {
     "img": "gulp",
     "img:webp": "gulp img-webp",
-    "delete": "gulp clean"
+    "delete": "gulp clean",
+    "reset": "gulp reset"
   },
   "repository": {
     "type": "git",

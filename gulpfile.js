@@ -16,6 +16,15 @@ gulp.task('clean', function () {
     .pipe(clean({ force: true }));
 });
 
+gulp.task('reset', function () {
+  return gulp
+    .src(
+      ['image-out/*', '!image-out/note.md', 'image-in/*', '!image-in/note.md'],
+      { allowEmpty: true }
+    )
+    .pipe(clean({ force: true }));
+});
+
 gulp.task('clear', () => cache.clearAll());
 
 gulp.task('img', function () {
@@ -78,3 +87,4 @@ gulp.task('img-webp', function () {
 gulp.task('default', gulp.series('img'));
 gulp.task('img-webp', gulp.series('img-webp'));
 gulp.task('clean', gulp.series('clean', 'clear'));
+gulp.task('reset', gulp.series('reset', 'clear'));
